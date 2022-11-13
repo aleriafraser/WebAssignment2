@@ -1,0 +1,338 @@
+.image-style {
+	display: block; 
+	height: 150px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+/*Declare variables in CSS files*/
+:root {
+	--main-color: #000664;
+	--header-color: #2C3E50;
+	--nav-color: #4DD0E1;
+	--customer-detail-color: #FCF3CF;
+	--repair-detail-color: #D5F5E3;
+	--courtesy-phone-color: #2874A6;
+	--cost-section-color: #EDBB99;
+	--button-section-color: #EDBB99;
+	--footer-color: #2C3E50;
+	--nav1-color: #0130a6;
+}
+
+
+.authenticity-statement {
+	padding: 15px;
+	background-color: rgb(157, 239, 204)
+}
+
+.advanced-js {
+	padding: 15px;
+	background-color: rgb(111, 158, 198);
+}
+
+
+
+
+
+
+
+
+/*******************************************************************************************/
+/* Advanced JS CSS: */
+
+/*  Interactive Map  */
+svg path:hover {
+    fill: #65302a;
+    cursor: pointer;
+}
+
+svg path.active {
+    fill: #65302a;
+}
+
+
+
+
+/* File Upload */
+#display-image{
+	width: 400px;
+	height: 225px;
+	border: 1px solid black;
+	background-position: center;
+	background-size: cover;
+  }
+
+
+
+
+
+
+
+  /* 3D Phone Model */
+  * {
+	/*font-family: "Roboto", sans-serif;*/
+	font-family: "Lato", sans-serif;
+	 font-weight: 300;
+  }
+  
+  h1 {
+	font-size:40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  }
+
+  p {
+	margin: 0px;
+		font-size: 15px;
+  }
+
+  i{
+	display:block !important;
+	margin-top:20px !important;
+	margin:auto;
+  }
+
+  hr{
+	height: 0.2px;
+	  background: white;
+	  margin-top: 0px;
+	  width: 60%;
+	  border: 0.5px solid white;
+  }
+
+  .shadow {
+	position: relative;
+  }
+
+  .shadow,
+  .shadow:before,
+  .shadow::after {
+	width: 200px;
+	height: 350px;
+	display: block;
+	margin: auto;
+  }
+
+  .shadow:before {
+	content: "";
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(-45deg, #ab5135, #9d4366, #2b7a96, #1a745f);
+	transform: translate3d(0px, 20px, 0) scale(0.95);
+	filter: blur(20px);
+	opacity: var(0.7);
+	transition: opacity 0.3s;
+	border-radius: inherit;
+  }
+
+  .shadow::after {
+	content: "";
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: inherit;
+	border-radius: inherit;
+  }
+
+  .box-top{
+	position: absolute;
+	top: 0.5%;
+	left:8%;
+	width:100%;
+	display:flex;
+  }
+
+  .box-top p{  padding-top:10px;}
+  .g-signal{padding-top:5px;}
+  .top-border {
+	margin-right:1px;
+	height: 10px;
+	width: 80px;
+	background: black;
+	border-radius: 5px;
+  }
+
+  .card {
+	margin-top: 20px !important;
+	margin: auto;
+	width: 200px;
+	height: 350px;
+	border-radius: 20px;
+	border: 1px solid #c94b4b;
+	background: #c94b4b;
+	transform: skew(10deg, 10deg);
+	transition-duration: 1.5s;
+	padding: 1px;
+	box-shadow: -15px 20px 0px 10px #c94b4b;
+	-webkit-box-shadow: -15px 20px 0px 10px #c94b4b;
+	-moz-box-shadow: -15px 20px 0px 10px #c94b4b;
+  }
+
+  .card:hover {
+	transform: skew(0deg, 0deg);
+	transition-duration: 1.5s;
+	box-shadow: 0px 30px 0px 0px #c94b4b;
+	-webkit-box-shadow: 0px 30px 0px 0px #c94b4b;
+	-moz-box-shadow: 0px 30px 0px 0px #c94b4b;
+  }
+
+  .card:hover .fa-unlock{
+	display:block !important;
+  }
+
+  .card:hover .fa-lock{
+	  display:none !important;
+  }
+
+  .box {
+	background: black;
+  }
+
+  .box {
+	padding-top:10px;
+	border: 2px solid;
+	border-radius: 20px;
+	/*background: #181818;*/
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100%;
+  }
+
+  .fa-unlock{
+	display:none !important;
+  }
+
+  /*
+  #time,
+  #date,i,p,.iconify {
+	color: white;
+	opacity:0.9;
+	text-align: center;
+  }*/
+
+  .small{
+	font-size:10px;
+	opacity: 0.7;
+  }
+  
+  .box-bottom {
+	  display: flex;
+	  position: absolute;
+	  bottom: 15%;
+	  width: 90%;
+	  left: 6%;
+	  height: 3px;
+  }
+
+  .box-bottom .small{
+	font-size:10px;
+	width: 60%;
+	padding-top:20px;
+	opacity: 0.7;
+  }
+
+  .box-bottom .iconify {
+	  font-size: 20px;
+	  background: #5353539c;
+	  padding: 7px;
+	  border-radius: 50%;
+  }
+
+  .bottom-border{
+	background:white;
+	position: absolute;
+	bottom: 1%;
+	left: 30%;
+	height: 3px;
+	width: 80px;
+  }
+
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+
+
+
+
+
+
+
+
+
+  /* Drag & Drop */
+  .drag-area {
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.drop-area {
+    text-align: center;
+    color: blue;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: green;
+    color: white;
+    text-align: center;
+}
+
+.result {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.iphone-image {
+  background: url('https://images.macrumors.com/t/9r84bU_ZTOTrUixxwhjHUFsAvD4=/800x0/smart/article-new/2017/09/iphonexdesign.jpg?lossy');
+  background-size: 100% 100%;
+}
+
+.samsung-image {
+  background: url('https://images.samsung.com/is/image/samsung/levant/galaxy-s10/gallery/levant-galaxy-s10-sm-g975-sm-g975fzkdmid-lprismblack-thumb-145214816?$320_320_PNG$');
+  background-size: 100% 100%;
+}
+
+.galaxy-image {
+  background: url('https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1641944535-samsung-galaxy-s21-fe-1641944520.jpg?crop=1xw:1xh;center,top&resize=480:*');
+  background-size: 100% 100%;
+}
+
+.charger-image {
+  background: url('https://c8.alamy.com/comp/JEKRH5/black-cell-phone-charger-cord-on-a-white-surface-cell-phone-charger-JEKRH5.jpg');
+  background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  */
+  
